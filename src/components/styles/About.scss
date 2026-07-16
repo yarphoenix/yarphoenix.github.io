@@ -1,0 +1,22 @@
+.about {
+  &__lead {
+    font-size: clamp(17px, 2.3vw, 21px);
+    max-width: 42ch;
+    color: var(--ink);
+    border-left: 2px solid var(--acc);
+    padding-left: 16px;
+    margin: 0 0 28px;
+    line-height: 1.5;
+  }
+
+  &__body {
+    font-size: clamp(16px, 2.1vw, 19px);
+    max-width: 64ch;
+    color: #22252c;
+    margin: 0;
+
+    b {
+      color: var(--ink);
+    }
+  }
+}

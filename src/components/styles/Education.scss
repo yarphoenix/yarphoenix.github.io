@@ -1,0 +1,32 @@
+.edu {
+  max-width: 64ch;
+
+  &__place {
+    font-family: 'Microgramma';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: clamp(15px, 2vw, 20px);
+    letter-spacing: 0;
+    line-height: 1.2;
+    color: var(--ink);
+    margin-bottom: 12px;
+  }
+
+  &__spec {
+    font-size: clamp(16px, 2.1vw, 18px);
+    color: #22252c;
+    margin: 0 0 18px;
+  }
+
+  &__extra {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: var(--slate);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  &__plus {
+    color: var(--acc);
+  }
+}

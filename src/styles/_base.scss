@@ -1,0 +1,41 @@
+// Палитра — CSS-переменные (как в исходном прототипе: акцент темизируется)
+:root {
+  --ink: #14161b;
+  --paper: #e9ecf0;
+  --paper2: #e1e5eb;
+  --slate: #4b5262;
+  --slate2: #6b7280;
+  --acc: #da4a22;
+  --card: #f3f5f8;
+  --line: #14161b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 84px;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Hanken Grotesk', system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--acc);
+  color: #fff;
+}

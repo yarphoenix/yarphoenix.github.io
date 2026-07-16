@@ -1,0 +1,10 @@
+@use 'styles/base';
+@use 'styles/keyframes';
+@use 'styles/layout';
+
+@font-face {
+  font-family: 'Microgramma';
+  src: url('./assets/fonts/microgramma.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
